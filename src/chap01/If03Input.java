@@ -11,7 +11,7 @@ public class If03Input {
     int point = sc.nextInt(); // 入力受け取り
 
     String resultText = isPassing(point) ? "合格" : "不合格"; // 三項演算子
-    System.out.printf(resultText);
+    System.out.println(resultText);
   }
 
   static boolean isPassing(int point) {

@@ -24,6 +24,6 @@ public class if04Password {
       }
       break;
     }
-    System.out.printf("Success!");
+    System.out.println("Success!");
   }
 }
