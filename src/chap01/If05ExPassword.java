@@ -59,9 +59,9 @@ public class If05ExPassword {
         um.registerPassword(pwd);
         System.out.println("Success!");
         break;
-      } catch (UserManager.NoNumberException e) {
+      } catch (UserManager.ShortPasswordException e) {
         System.out.println("8文字以上にしてください。");
-      } catch (UserManager.NoAlphabetException | UserManager.ShortPasswordException e) {
+      } catch (UserManager.NoAlphabetException | UserManager.NoNumberException e) {
         System.out.println("英字と数字を少なくとも１つずつ混ぜてください。");
       }
     };
