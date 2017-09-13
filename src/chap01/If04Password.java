@@ -2,7 +2,7 @@ package chap01;
 
 import java.util.Scanner;
 
-public class if04Password {
+public class If04Password {
 
   public static void main(String[] args) {
     Scanner sc = new Scanner(System.in);
