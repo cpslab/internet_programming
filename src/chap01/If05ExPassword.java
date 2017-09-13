@@ -1,8 +1,5 @@
 package chap01;
 
-import org.junit.Assert;
-import org.junit.Test;
-
 import java.util.Scanner;
 
 // 余裕がある人向け
