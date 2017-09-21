@@ -6,13 +6,12 @@ package basic;
 //xがそれ以外(10や-1なら)ならout of scopeと表示するプログラムをかけ
 
 public class IfTest3 {
-	public static void main(String[] args) { 
-		int x=Integer.parseInt(args[0]);
-		/*以下を改造する。**/
-		System.out.println(x+" is Big Number");
-	
-	
+  public static void main(String[] args) {
+    int x = Integer.parseInt(args[0]);
+    /*以下を改造する。**/
+    System.out.println(x + " is Big Number");
 
-	}//main end
+
+  }//main end
 }//class end
 

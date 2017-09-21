@@ -6,14 +6,14 @@ package basic;
 
 
 public class IfTest2 {
-	public static void main(String[] args) { 
-		int x=Integer.parseInt(args[0]);
-		if(x>=7){
-			System.out.println(x+" is Big Number");
-		}
-	/*ここにelse if文を追加する。**/
-	
+  public static void main(String[] args) {
+    int x = Integer.parseInt(args[0]);
+    if (x >= 7) {
+      System.out.println(x + " is Big Number");
+    }
+  /*ここにelse if文を追加する。**/
 
-	}//main end
+
+  }//main end
 }//class end
 

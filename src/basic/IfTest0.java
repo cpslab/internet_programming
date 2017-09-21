@@ -1,23 +1,23 @@
 package basic;
 
 public class IfTest0 {
-	public static void main(String[] args) { 
+  public static void main(String[] args) {
 
-		boolean b1=true;
-		boolean b2=false;
-		if(true){
-			System.out.println("trueは実行される");
-		}
-		if(false){
-			System.out.println("false ");//falseのものは実行されない。
-		}
-		/*************** testA**************/
-		/*
+    boolean b1 = true;
+    boolean b2 = false;
+    if (true) {
+      System.out.println("trueは実行される");
+    }
+    if (false) {
+      System.out.println("false ");//falseのものは実行されない。
+    }
+    /*************** testA**************/
+    /*
 		if(b1){
 			System.out.println("(0)b1 is "+b1);
 		}
 		*/
-		/*************** testB**************/
+    /*************** testB**************/
 		/*
 		if(b2){
 			System.out.println("(1)b2 is "+b2);
@@ -25,7 +25,7 @@ public class IfTest0 {
 			System.out.println("(2)b2 is "+b2);
 		}
 		*/
-		/*************** testC**************/
+    /*************** testC**************/
 		/*
 		if(b1&&b2){
 			System.out.println("(3)b1&&b2 is true");
@@ -33,7 +33,7 @@ public class IfTest0 {
 			System.out.println("(4)b1&&b2 is false");
 		}
 		*/
-		/*************** testD**************/
+    /*************** testD**************/
 		/*
 		if(b1&&b1){
 			System.out.println("(5)b1&&b1 is true");
@@ -41,7 +41,7 @@ public class IfTest0 {
 			System.out.println("(6)b1&&b1 is false");
 		}
 		*/
-		/*************** testE**************/
+    /*************** testE**************/
 		/*
 		if(b2&&b2){
 			System.out.println("(7)b2&&b2 is true");
@@ -49,7 +49,7 @@ public class IfTest0 {
 			System.out.println("(8)b2&&b2 is false");
 		}
 		*/
-		/*************** testF**************/
+    /*************** testF**************/
 		/*
 		if(b1||b1){
 			System.out.println("(9)b1||b1 is true");
@@ -57,7 +57,7 @@ public class IfTest0 {
 			System.out.println("(10)b1||b1 is false");
 		}
 		*/
-		/*************** testG**************/
+    /*************** testG**************/
 		/*
 		if(b2||b2){
 			System.out.println("(11)b2||b2 is true");
@@ -66,6 +66,6 @@ public class IfTest0 {
 		}
 		*/
 
-	}
+  }
 }
 
