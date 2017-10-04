@@ -20,23 +20,32 @@ public class HowOldAreYou2 {
     int age = 0;
 
     while (counter < 10) {
+      System.out.println("=========" + (counter++) + "回目の質問");
+      System.out.println("あなたは何年生まれですか?");
+      String line = "";
       try {
-        System.out.println("=========" + (counter++) + "回目の質問");
-        System.out.println("あなたは何年生まれですか?");
-        String line = reader.readLine();
-        if (line.equals("q") || line.equals("0")) {
-          System.out.println("終了します");
-          break;
-        }
-
-        birthyear = Integer.parseInt(line);
-        age = 2013 - birthyear;
-
-        System.out.println("あなたは現在" + age + "歳ですね。" + gengo + gengoyear + "生まれです。");
-        System.out.println("7年後の東京オリンピック2020年には、" + (age) + "歳ですね。(; ;)orz");
+        line = reader.readLine();
       } catch (IOException e) {
-        System.out.println(e);
+        System.out.println("入力エラーです");
+        continue;
+//        System.out.println(e);
       }
+      if (line.equals("q") || line.equals("0")) {
+        System.out.println("終了します");
+        break;
+      }
+
+      try {
+        birthyear = Integer.parseInt(line);
+      } catch (NumberFormatException e) {
+        System.out.println("入力エラーです");
+        continue;
+      }
+
+      age = 2013 - birthyear;
+
+      System.out.println("あなたは現在" + age + "歳ですね。" + gengo + gengoyear + "生まれです。");
+      System.out.println("7年後の東京オリンピック2020年には、" + (age) + "歳ですね。(; ;)orz");
     }
 
 
